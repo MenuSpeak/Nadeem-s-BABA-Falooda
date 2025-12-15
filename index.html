@@ -1264,18 +1264,42 @@
   <script>
     // Menu Data
     const data = [
-  {"id": 99, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "जामुन शॉट / Jamun Shot", "price": "80/-", "desc": "Fresh jamun flavored shot.", "tags": ["Drink", "Shots", "Fruit"], "img": "img/jamun_shot.jpeg"},
-  {"id": 100, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "अमरूद शॉट / Guava Shot", "price": "80/-", "desc": "Fresh guava flavored shot.", "tags": ["Drink", "Shots", "Fruit"], "img": "img/guava_shot.jpeg"},
-  {"id": 101, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "खजूर शेक / Khajur Shake", "price": "120/-", "desc": "Creamy shake made with sweet dates.", "tags": ["Drink", "Shake", "Dry Fruit"], "img": "img/khajur_shake.jpeg"},
-  {"id": 102, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "सीताफल शेक / Sitafal Shake", "price": "120/-", "desc": "Creamy shake made with custard apple.", "tags": ["Drink", "Shake", "Fruit"], "img": "img/sitafal_shake.jpeg"},
-  {"id": 103, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "कोकोनट शेक / Coconut Shake", "price": "110/-", "desc": "Refreshing shake made with fresh coconut.", "tags": ["Drink", "Shake", "Coconut"], "img": "img/coconut_shake.jpeg"},
-  {"id": 104, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "रबड़ी फालूदा रेगुलर / Rabdi Falooda Regular", "price": "150/-", "desc": "Regular size rabdi falooda dessert drink.", "tags": ["Drink", "Dessert", "Falooda"], "img": "img/rabdi_falooda_regular.jpeg"},
-  {"id": 105, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "बाबा स्पेशल फालूदा / Baba Special Falooda", "price": "200/-", "desc": "Special falooda prepared Baba style.", "tags": ["Drink", "Dessert", "Falooda", "Special"], "img": "img/baba_special_falooda.jpeg"},
-  {"id": 106, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "लस्सी रेगुलर / Lassi Regular", "price": "80/-", "desc": "Regular size traditional sweet lassi.", "tags": ["Drink", "Lassi", "Yogurt"], "img": "img/lassi_regular.jpeg"},
-  {"id": 107, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "बाबा स्पेशल लस्सी / Baba Special Lassi", "price": "120/-", "desc": "Special lassi prepared Baba style.", "tags": ["Drink", "Lassi", "Yogurt", "Special"], "img": "img/baba_special_lassi.jpeg"},
-  {"id": 108, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "मिक्स फ्रूट जूस / Mix Fruit Juice", "price": "100/-", "desc": "Fresh mixed fruit juice.", "tags": ["Drink", "Juice", "Fruit"], "img": "img/mix_fruit_juice.jpeg"},
-  {"id": 109, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "मैंगो शेक / Mango Shake", "price": "120/-", "desc": "Creamy shake made with fresh mango.", "tags": ["Drink", "Shake", "Mango"], "img": "img/mango_shake.jpeg"},
-  {"id": 110, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "चॉकलेट शेक / Chocolate Shake", "price": "130/-", "desc": "Rich and creamy chocolate shake.", "tags": ["Drink", "Shake", "Chocolate"], "img": "img/chocolate_shake.jpeg"},
+
+      
+  {"id": 111, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "जामुन शॉट हाफ / Jamun Shot Half", "price": "30/-", "desc": "Fresh jamun flavored shot (half portion).", "tags": ["Drink", "Shots", "Fruit", "Half"], "img": "img/jamun_shot.jpeg"},
+  {"id": 112, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "जामुन शॉट फुल / Jamun Shot Full", "price": "50/-", "desc": "Fresh jamun flavored shot (full portion).", "tags": ["Drink", "Shots", "Fruit", "Full"], "img": "img/jamun_shot.jpeg"},
+  
+  {"id": 113, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "अमरूद शॉट हाफ / Guava Shot Half", "price": "30/-", "desc": "Fresh guava flavored shot (half portion).", "tags": ["Drink", "Shots", "Fruit", "Half"], "img": "img/guava_shot.jpeg"},
+  {"id": 114, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "अमरूद शॉट फुल / Guava Shot Full", "price": "50/-", "desc": "Fresh guava flavored shot (full portion).", "tags": ["Drink", "Shots", "Fruit", "Full"], "img": "img/guava_shot.jpeg"},
+  
+  {"id": 115, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "खजूर शेक हाफ / Khajur Shake Half", "price": "30/-", "desc": "Creamy shake made with sweet dates (half portion).", "tags": ["Drink", "Shake", "Dry Fruit", "Half"], "img": "img/khajur_shake.jpeg"},
+  {"id": 116, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "खजूर शेक फुल / Khajur Shake Full", "price": "50/-", "desc": "Creamy shake made with sweet dates (full portion).", "tags": ["Drink", "Shake", "Dry Fruit", "Full"], "img": "img/khajur_shake.jpeg"},
+  
+  {"id": 117, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "सीताफल शेक हाफ / Sitafal Shake Half", "price": "40/-", "desc": "Creamy shake made with custard apple (half portion).", "tags": ["Drink", "Shake", "Fruit", "Half"], "img": "img/sitafal_shake.jpeg"},
+  {"id": 118, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "सीताफल शेक फुल / Sitafal Shake Full", "price": "60/-", "desc": "Creamy shake made with custard apple (full portion).", "tags": ["Drink", "Shake", "Fruit", "Full"], "img": "img/sitafal_shake.jpeg"},
+  
+  {"id": 119, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "कोकोनट शेक हाफ / Coconut Shake Half", "price": "40/-", "desc": "Refreshing shake made with fresh coconut (half portion).", "tags": ["Drink", "Shake", "Coconut", "Half"], "img": "img/coconut_shake.jpeg"},
+  {"id": 120, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "कोकोनट शेक फुल / Coconut Shake Full", "price": "60/-", "desc": "Refreshing shake made with fresh coconut (full portion).", "tags": ["Drink", "Shake", "Coconut", "Full"], "img": "img/coconut_shake.jpeg"},
+  
+{"id": 121, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "रबड़ी फालूदा हाफ / Rabdi Falooda Half", "price": "90/-", "desc": "Half portion of rabdi falooda dessert drink.", "tags": ["Drink", "Dessert", "Falooda", "Half"], "img": "img/rabdi_falooda_regular.jpeg"},
+{"id": 122, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "रबड़ी फालूदा फुल / Rabdi Falooda Full", "price": "150/-", "desc": "Full portion of rabdi falooda dessert drink.", "tags": ["Drink", "Dessert", "Falooda", "Full"], "img": "img/rabdi_falooda_regular.jpeg"}, 
+        
+  {"id": 122, "cat": "स्पेशल आइटम / Special Items", "name": "बाबा स्पेशल फालूदा / Baba Special Falooda", "price": "120/-", "desc": "Special falooda prepared Baba style.", "tags": ["Drink", "Dessert", "Falooda", "Special"], "img": "img/baba_special_falooda.jpeg"},
+  
+{"id": 123, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "लस्सी रेगुलर हाफ / Lassi regular Half", "price": "50/-", "desc": "Half portion of traditional sweet lassi.", "tags": ["Drink", "Lassi", "Yogurt", "Half"], "img": "img/lassi_regular.jpeg"},
+{"id": 124, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "लस्सी रेगुलर फुल / Lassi regular Full", "price": "80/-", "desc": "Full portion of traditional sweet lassi.", "tags": ["Drink", "Lassi", "Yogurt", "Full"], "img": "img/lassi_regular.jpeg"},
+
+  
+  {"id": 124, "cat": "स्पेशल आइटम / Special Items", "name": "बाबा स्पेशल लस्सी / Baba Special Lassi", "price": "70/-", "desc": "Special lassi prepared Baba style.", "tags": ["Drink", "Lassi", "Yogurt", "Special"], "img": "img/baba_special_lassi.jpeg"},
+  
+  {"id": 125, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "मिक्स फ्रूट जूस हाफ / Mix Fruit Juice Half", "price": "60/-", "desc": "Fresh mixed fruit juice (half portion).", "tags": ["Drink", "Juice", "Fruit", "Half"], "img": "img/mix_fruit_juice.jpeg"},
+  {"id": 126, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "मिक्स फ्रूट जूस फुल / Mix Fruit Juice Full", "price": "100/-", "desc": "Fresh mixed fruit juice (full portion).", "tags": ["Drink", "Juice", "Fruit", "Full"], "img": "img/mix_fruit_juice.jpeg"},
+  
+  {"id": 127, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "मैंगो शेक हाफ / Mango Shake Half", "price": "30/-", "desc": "Creamy shake made with fresh mango (half portion).", "tags": ["Drink", "Shake", "Mango", "Half"], "img": "img/mango_shake.jpeg"},
+  {"id": 128, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "मैंगो शेक फुल / Mango Shake Full", "price": "50/-", "desc": "Creamy shake made with fresh mango (full portion).", "tags": ["Drink", "Shake", "Mango", "Full"], "img": "img/mango_shake.jpeg"},
+  
+  {"id": 129, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "चॉकलेट शेक हाफ / Chocolate Shake Half", "price": "30/-", "desc": "Rich and creamy chocolate shake (half portion).", "tags": ["Drink", "Shake", "Chocolate", "Half"], "img": "img/chocolate_shake.jpeg"},
+  {"id": 130, "cat": "ड्रिंक्स आइटम / Drinks Items", "name": "चॉकलेट शेक फुल / Chocolate Shake Full", "price": "50/-", "desc": "Rich and creamy chocolate shake (full portion).", "tags": ["Drink", "Shake", "Chocolate", "Full"], "img": "img/chocolate_shake.jpeg"},
 
 ];
 
@@ -1645,6 +1669,7 @@
   </script>
 </body>
 </html>
+
 
 
 

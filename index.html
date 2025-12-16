@@ -11,6 +11,39 @@
 
 
 
+/* GALLERY SECTION */
+#gallery {
+  padding: 40px 20px;
+  background-color: #fff7f0;
+  text-align: center;
+}
+
+#gallery h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #8b0000;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.gallery-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.05);
+}
 
 
 
@@ -1143,6 +1176,22 @@
       </section>
     </main>
 
+<!-- GALLERY SECTION START -->
+<section id="gallery">
+  <h2>Our Gallery</h2>
+
+  <div class="gallery-container">
+    <img src="shop1.jpg" alt="Shop Photo 1">
+    <img src="shop2.jpg" alt="Shop Photo 2">
+    <img src="shop3.jpg" alt="Shop Photo 3">
+    <img src="shop4.jpg" alt="Shop Photo 4">
+    <!-- <img src="images/shop5.jpg" alt="Shop Photo 5"> -->
+    <!-- <img src="images/shop6.jpg" alt="Shop Photo 6"> -->
+  </div>
+</section>
+<!-- GALLERY SECTION END -->
+
+      
     <!-- Location Link Section - Added at bottom -->
     <div class="location-link-section">
       <div class="location-link-header">
@@ -1669,6 +1718,7 @@
   </script>
 </body>
 </html>
+
 
 
 
